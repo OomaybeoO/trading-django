@@ -16,7 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from trading.consumers import MyConsumer
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('ws/myapp/', MyConsumer.as_asgi()),
+
 ]
