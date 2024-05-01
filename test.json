@@ -1,0 +1,11 @@
+{
+    "op":"subscribe",
+    "args":[
+        {
+            "instType":"SPOT",
+            "channel":"ticker",
+            "instId":"BTCUSDT"
+        }
+    ]
+}
+{"message":"test 測試!"}
