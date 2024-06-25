@@ -1,0 +1,21 @@
+<!-- candlestick_chart.html -->
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candlestick Chart</title>
+    <!-- 引入 Plotly.js 库 -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Candlestick Chart</h1>
+    
+    <!-- 顯示蠟燭圖的區域 -->
+    <div id="plot_div">
+        {{ plot_div | safe }}  <!-- 將 plot_div 插入到模板中，使用 safe 过滤器确保 HTML 被正确地呈现 -->
+    </div>
+</body>
+</html>

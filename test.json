@@ -7,5 +7,35 @@
             "instId":"BTCUSDT"
         }
     ]
+},
+{"message":"test 測試!"},
+
+
+
+{
+    "action":"snapshot",
+    "arg":
+    {
+        "instType":"SPOT",
+        "channel":"ticker",
+        "instId":"BTCUSDT"
+    },
+     "data":[{
+        "instId":"BTCUSDT",
+        "lastPr":"58583.25",
+        "open24h":"56885.95",
+        "high24h":"59467.95",
+        "low24h":"56636.36",
+        "change24h":"0.01472",
+        "bidPr":"58583.26",
+        "askPr":"58593.83",
+        "bidSz":"0.007647",
+        "askSz":"0.136545",
+        "baseVolume":"10704.746971",
+        "quoteVolume":"618244285.376006",
+        "openUtc":"58342.58",
+        "changeUtc24h":"0.00413",
+        "ts":"1714655923962"
+    }],
+     "ts":1714655923968
 }
-{"message":"test 測試!"}
